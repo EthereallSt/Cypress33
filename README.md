@@ -19,19 +19,25 @@ This repository contains automated end-to-end tests written in Cypress for the D
 ## Getting Started
 
 Clone the repository:
+```bash
 -git clone https://github.com/your-username/cypress-demo-sauce.git
+```
 
 ### Installation
-
+```bash
 -cd cypress-demo-sauce
 -npm install
+```
 
 ## Usage
 
 Start the Cypress Test Runner:
 
+```bash
 -npx cypress open
-In the Cypress Test Runner, click on demo_sauce.spec.js to run the tests.
+```
+In the Cypress Test Runner,
+click on demo_sauce.spec.js to run the tests.
 
 
 ## License
