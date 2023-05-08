@@ -9,7 +9,7 @@ describe('Переход на сайт', () => {
     // Select a product and add it to the cart
     cy.get('.inventory_item').first().find('.btn_inventory').click()
 
-    // Proceed to the cart
+    // Proceed to the cart page
     cy.get('.shopping_cart_link').click()
 
     // Continue to the checkout process
