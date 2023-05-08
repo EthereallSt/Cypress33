@@ -7,30 +7,30 @@
   - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contacts](#contacts)
 
 ## Description
 
 This repository contains automated end-to-end tests written in Cypress for the Demo Sauce website.
+![image](https://user-images.githubusercontent.com/89348016/236886179-de5de5ea-4071-43fe-953f-6b9659b8998e.png)
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" height="40px" width="40px" /></a>
+
 
 ## Getting Started
 
 Clone the repository:
-
-git clone https://github.com/your-username/cypress-demo-sauce.git
+-git clone https://github.com/your-username/cypress-demo-sauce.git
 
 ### Installation
 
-cd cypress-demo-sauce
-npm install
+-cd cypress-demo-sauce
+-npm install
 
 ## Usage
 
 Start the Cypress Test Runner:
 
-npx cypress open
+-npx cypress open
 In the Cypress Test Runner, click on demo_sauce.spec.js to run the tests.
 
 
