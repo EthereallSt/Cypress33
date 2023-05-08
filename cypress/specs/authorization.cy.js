@@ -1,18 +1,25 @@
 import data from "../support/data";
 import app_sauce from "../pages/sauce_page/app_sauce";
 
-describe('Переход на сайт', () => {
-  it.only('Должен перейти на сайт', () => {
+describe('Demo sauce e2e check', () => {
+
+  it('Should login to demo sauce', () => {
     app_sauce.loginUI()
     cy.url().should('include', '/inventory.html')
 
-    // Select a product and add it to the cart
+  })
+
+  it('Should add to cart', () => {
     cy.get('.inventory_item').first().find('.btn_inventory').click()
 
-    // Proceed to the cart page
+  })
+
+  it('Should proceed to cart', () => {
     cy.get('.shopping_cart_link').click()
 
-    // Continue to the checkout process
+  })
+
+  it('Should continue purchase', () => {
     cy.get('.checkout_button').click()
 
     // Enter the customer information
@@ -28,6 +35,5 @@ describe('Переход на сайт', () => {
 
     // Verify that the checkout is complete
     cy.get('.complete-header').should('contain.text', 'Thank you for your order!')
-
   })
 })
